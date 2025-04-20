@@ -1,0 +1,23 @@
+:root {
+    --background: hsla(91, 53%, 37%, 0.537);
+    --navbar: rgba(83, 45, 8, 0.58);
+    --logo: hsl(0, 0%, 100%);
+    --navlinks: hsla(90, 71%, 49%, 0.696);
+    --text: hsl(100, 60%, 1%);
+ }
+
+.body {
+    background-color: var(--background);
+  }
+
+.navbar {
+    background-color: var(--navbar);
+}
+
+.navbar-brand {
+    color: var(--logo);
+}
+
+.nav-item a {
+    color: var(--navlinks);
+}
